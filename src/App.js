@@ -21,6 +21,7 @@ const HomePage = () => {
             codiceArticolo={art.codiceArticolo}
             nomeArticolo={art.nomeArticolo}
             disponibilita={art.disponibilita}
+            prezzoUnitario={art.prezzoUnitario}
           />
         )
       })}
