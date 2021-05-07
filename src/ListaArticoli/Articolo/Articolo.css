@@ -1,18 +1,18 @@
 .articolo {
-  display: flex;
+  display:  inline-block ;
   justify-content: space-between;
   align-items: center;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
   padding: 0.5rem;
   margin: 1rem 0;
   border-radius: 12px;
-  background-color: #4b4b4b;
+  background-color: #013831c0;
   color: white;
 }
 
 .immagine {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     border-radius: 12px;
 }
 
@@ -22,11 +22,31 @@
   margin: 0 1rem;
 }
 
+.disponibile {
+    color: rgb(0, 223, 0);
+}
+
+.nonDisponibile {
+    color: red;
+}
+
 .prezzo {
   font-size: 1rem;
   font-weight: bold;
   color: white;
-  background-color: #40005d;
+  background-color: #a892ee;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 12px;
+}
+
+.aggiungiAlCarrello {
+  width: 100%;
+  display: run-in;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #a892ee;
   border: 1px solid white;
   padding: 0.5rem;
   border-radius: 12px;

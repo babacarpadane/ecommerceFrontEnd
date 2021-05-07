@@ -1,3 +1,4 @@
+import ListaArticoli from './ListaArticoli/ListaArticoli.js'
 import Articolo from './ListaArticoli/Articolo/Articolo.js'
 import './App.css';
 import React, { useState, useEffect } from 'react';
@@ -13,6 +14,7 @@ const HomePage = () => {
 
   return (
     <div className="App">
+      {/* <ListaArticoli articoli={articoli}/> */}
       {articoli.map(art => {
         return (
           <Articolo
